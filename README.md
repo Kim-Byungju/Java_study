@@ -47,5 +47,7 @@
    배열의 값들이 행과 열로 구성된 배열을 2차원 배열이라고 합니다. 2차원 배열은 수학의 행렬과 유사합니다.  
    ```java
    int[][] scores = new int[2][3];
-   ```   
+   ```
+   ![다차원배열](https://user-images.githubusercontent.com/125637863/221576582-f94ecc29-2ed1-462c-90ea-76d4e1d60ea7.png)   
    
+
