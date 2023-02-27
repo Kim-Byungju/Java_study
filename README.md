@@ -14,5 +14,11 @@
    배열은 같은 타입의 데이터를 연속된 공간에 나열하고, 각 데이터에 인덱스(index)를 부여해놓은 자료구조형입니다.
  2. 배열선언
  
-   - 타입[] 변수;   ex)  int[] intArray;
-   - 타입 변수[];   ex)  double doubleArray[];
+   - 타입[] 변수;   
+   ```java
+   int[] intArray;
+   ```
+   - 타입 변수[];  
+   ```java
+   double doubleArray[];
+   ```
