@@ -49,5 +49,11 @@
    int[][] scores = new int[2][3];
    ```
    ![다차원배열](https://user-images.githubusercontent.com/125637863/221576582-f94ecc29-2ed1-462c-90ea-76d4e1d60ea7.png)   
+6. 향상된 for문
+   
+   자바는 배열이나 컬렉션을 좀더 쉽게 처리하기 위해 향상된 for문을 제공합니다. 향상된 for문은 반복실행을 하기 위해 루프 카운터 변수와 증감식을 사용하지 않습니다. 배열및 컬렉션 항목의 개수만큼 반복하고 , 자동적으로 for문을 빠져나갑니다.    
+   ```java
+   int[][] scores = new int[2][3];
+   ```   
    
 
