@@ -56,7 +56,7 @@
    - for(타입변수 : 배열) {}
    ```java
    for(int[] a:arr) {
-	for(int num: a) {
+	 for(int num: a) {
 	 	System.out.print(num+"");
 		}
 		System.out.println();
