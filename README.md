@@ -27,3 +27,7 @@
    ```java
    String[] names = {"원효대사", 궁예, "정부장" };
    ```
+    - 타입[] 변수 = new 타입[길이];
+   ```java
+   int[] Array = new int[5];
+   ```
