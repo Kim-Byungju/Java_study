@@ -14,6 +14,17 @@
   - println() : 줄바꿈(개생) 기능
   - print() : 줄바꿈 블가 
   - printf() : 출력포맷이며 데이터의 종류에 따라 여러 출력행태를 가진다. ex) printf("저의 이름은 %s이고 나이는 %d입니다.", "홍길동", 20)
+ 2. 입력
+    ```java
+    Scanner sc = new scanner(System.in);
+    String name = sc.next();
+    int age = sc.nestImt();
+    ```
+  - 입력타입에 따라 사용해야하는 메소드가 달라진다.
+  - next() : 문자열
+  - nextLine() : 한줄씩 읽는다.
+  - nextInt() : 정수
+  - nextDouble() : 실수
 ### 📍Ch2 데이터 타입과 변수
 ### 📍Ch3 연산자
 ### 📍Ch4 조건문
