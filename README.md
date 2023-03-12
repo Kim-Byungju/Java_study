@@ -202,7 +202,6 @@
     있기 때문이다. 이러한 문제점을 해결하기 위해 메소드를 통해 필드를 변경하는 방법을 사용한다. 
   - Getter Setter는 다음과 같이 작성할 수 있다.
  
- 
-![스크린샷 2023-03-12 오후 3 31 40](https://user-images.githubusercontent.com/125637863/224528698-2ecd6cf9-a5e3-463a-92c6-7351a6324eae.png)
+    ![스크린샷 2023-03-12 오후 3 31 40](https://user-images.githubusercontent.com/125637863/224528698-2ecd6cf9-a5e3-463a-92c6-7351a6324eae.png)
 
 
