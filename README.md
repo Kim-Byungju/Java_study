@@ -18,7 +18,7 @@
     ```java
     Scanner sc = new scanner(System.in);
     String name = sc.next();
-    int age = sc.nestImt();
+    int age = sc.nestInt();
     ```
   - 입력타입에 따라 사용해야하는 메소드가 달라진다.
   - next() : 문자열
