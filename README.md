@@ -191,3 +191,11 @@
   - final 필드는 초기값이 저장되면, 최종적인 값이 되어 프로그램 실행 도중 수정할수 없다.
   - final 필드타입 [= 초기값]; 같이 선언한다. 
   - 수학에서 사용되는 원주율(PI)같은 불변의 값을 저장하는 필드를 상수라고 한다. 상수는 static final 키워드로 선언한다.
+ 6. 접근 제한자 
+  - public : 접근제한 x
+  - protected : 같은패키지, 자손(다른 패키지)
+  - default : 같은패키지
+  - private : 같은 클래스 내에서만 사용 가능
+  ![접근제한자(Access Modifier)](https://user-images.githubusercontent.com/125637863/224527768-198307cd-0a04-4034-a307-97ab8e0423e4.png)
+  
+  
