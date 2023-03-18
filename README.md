@@ -278,4 +278,5 @@
      public abstract 메소드이름(매개변수목록);
      }
      ```
+   - 인터페이스의 모든 필드는 public static final이여야 하며, 모든 메소드는 public abstract이어야 한다. 이 이부분은 생략가능하며 컴파일시 자바 컴파일러가 자동으로 추가 해준다.  
 	
