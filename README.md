@@ -267,6 +267,5 @@
      public static final 타입 상수이름 = 값;
 
      public abstract 메소드이름(매개변수목록);
-
-	}
+     }
      ```
