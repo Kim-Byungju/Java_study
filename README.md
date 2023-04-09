@@ -180,10 +180,30 @@
 				System.out.print(newIntArray[i]+","); 						//복사결과 출력
 			}
 
+		     }
 		}
-
-	}
      ```
+   - 그렇지만, 간편하게 System.arraycopy()메소드를 이용하여 배열을 복하하는 방법이 있다. 
+      ```java
+      System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
+      ```
+   - src 매개값은 원본 배열이고, srcPos는 원본배열에서 복사할 항목의 시작 인덱스이다. dest매개값은 새배열, destPos는 새배열에서 붙여넣을 시작 인덱스이다. length는 복사할 개수이다.
+      ```java
+      public class ArrayCopyExample {
+
+	public static void main(String[] args) {
+		String[] oldStrArray = {"java", "array", "copy"};
+		
+		String[] newStrArray = new String[5]; //배열을 복사시킬 그릇
+		
+		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length);
+		
+		for(int i = 0; i<newStrArray.length; i++) {
+			System.out.print(newStrArray[i]+",");
+		}
+	    }
+	}
+      ```     
  -----
 ### 📍Ch7 예외처리
 -----
