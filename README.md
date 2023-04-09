@@ -164,8 +164,26 @@
 	}
    ```   
  7. 배열 복사
-   
-    자바는 ~  
+   - 배열의 복사는 for문으로 아래와 같은 방식으로 복사할수 있다.
+     ```java
+	     public class ArrayCopyByForExample {
+
+		public static void main(String[] args) {
+
+			int[] oldIntArray = {1,2,3};
+			int[] newIntArray = new int[5];
+
+			for(int i =0; i<oldIntArray.length; i++) {
+				newIntArray[i] = oldIntArray[i];								// 배열 복사
+			}
+			for(int i=0; i<newIntArray.length; i++) {
+				System.out.print(newIntArray[i]+","); 						//복사결과 출력
+			}
+
+		}
+
+	}
+     ```
  -----
 ### 📍Ch7 예외처리
 -----
